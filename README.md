@@ -1,7 +1,7 @@
 # Analysis-of-gender-perception
 
 In this project, we are trying to analyse how the perception of women has changed before and after they were given voting rights. Little bit about our data set, we extracted the data from Hansard Website - https://api.parliament.uk/historic-hansard/index.html
-We used Beautiful soup to extract the data from hansard website. The data extraction files can be found in this repository. The extracted data can be found in the shared drive - https://drive.google.com/drive/folders/1DwsRwN3ecGvKzFDkh5uhV2RK_vxTz9lo?usp=sharing. The data is present in the 1800's data folder and mergedcsv files contain 1800's , 1900's, 2000's merged csvs.
+We used Beautiful soup to extract the data from hansard website. The data extraction files can be found in this repository. The extracted data can be found in the shared drive - https://drive.google.com/drive/folders/1DwsRwN3ecGvKzFDkh5uhV2RK_vxTz9lo?usp=sharing. The data is present in the 1800's data folder and mergedcsv files contain 1800's , 1900's, 2000's merged csvs. I cannot upload the data set folder to this repository as it is a very big file
 To extract the data, 
 1. First you need to extract the URL's. For that you need to run scraping_URL's code. 
 2. In that code enter your desired start year and end year and it will extract all the URL's available in those years.
