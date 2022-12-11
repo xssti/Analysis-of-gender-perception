@@ -16,8 +16,14 @@ Steps to get the male and female pronoun counts for all the years -
 3. Prerun all the definitions available in the colab file
 4. When running the 'for dir in dirs:' cell you can see the progress bar
 5. Once it is done the male and female counts along with the year is stored in a dictionary where year is the key and male pronoun count and female pronoun count are the values
-6. Once you get the male and female pronoun count you can proceed with your analysis
+6. Once you get the male and female pronoun count you can proceed with your analysis (Check the screenshot for sample output of how the male and female pronoun counts are displayed)
+7. <img width="623" alt="Screen Shot 2022-12-10 at 10 11 15 PM" src="https://user-images.githubusercontent.com/89367457/206884518-3c705f9e-5b18-40d3-b402-cd0cd4325425.png">
+
+Plot for male, female pronoun count vs year
+![download](https://user-images.githubusercontent.com/89367457/206884559-b12bb6cd-cf40-4561-b091-5fdcfe64edba.png)
 
 The necessary packages to be installed are already present in the analysis_gp.py file. You can run the file by giving the data set location and you will the preliminary results.
 
 To Generate the word cloud - download the sentiment_analysis.ipynb file. Open the file and read the CSV of the file for which you want to create a word cloud. Run all the cells, there are some preprocessing done on the data like checking for missing values and replacing the missing values with "No Text Available" (The file is fully documented so you will understand what and why you are doing that step)
+Word Cloud created for the year 1928 - 
+![download (1)](https://user-images.githubusercontent.com/89367457/206884569-87f3f8e1-a137-4af8-90f7-9c77b88bf7f7.png)
