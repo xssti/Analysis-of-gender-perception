@@ -2,6 +2,12 @@
 
 In this project, we are trying to analyse how the perception of women has changed before and after they were given voting rights. Little bit about our data set, we extracted the data from Hansard Website - https://api.parliament.uk/historic-hansard/index.html
 We used Beautiful soup to extract the data from hansard website. The data extraction files can be found in this repository. The extracted data can be found in the shared drive - https://drive.google.com/drive/folders/1DwsRwN3ecGvKzFDkh5uhV2RK_vxTz9lo?usp=sharing. The data is present in the 1800's data folder and mergedcsv files contain 1800's , 1900's, 2000's merged csvs.
+To extract the data, 
+1. First you need to extract the URL's. For that you need to run scraping_URL's code. 
+2. In that code enter your desired start year and end year and it will extract all the URL's available in those years.
+3. Download the URLS.csv file which was generated as an output of scraping_URL's file and upload the file to the folder where scraping_articles code file is available
+4. In the scraping_articles code file, enter the same start and end year dates for which you extracted the URL's and run the script
+5. You will get each year data as a CSV file which will consists of 5 columns.
 The dataset consists of 5 columns - ID, Title, URL, Date, Text. We were able to extract 3.85 GB of data (80 years data). We are yet to extract the data (our IP was blocked, we will use VPN and extract the remaining data)
 The file analysis_gp.py contains the code to get the male and female pronoun count, word2vec using Gensim. The file also contains the code to plot the male and female pronoun count for the existing data. 
 Steps to get the male and female pronoun counts for all the years - 
