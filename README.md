@@ -27,6 +27,7 @@ Plot for male, female pronoun count vs year (The plot has some missing values. W
 The necessary packages to be installed are already present in the analysis_gp.py file. You can run the file by giving the data set location and you will the preliminary results.
 
 To Generate the word cloud - download the sentiment_analysis.ipynb file. Open the file and read the CSV of the file for which you want to create a word cloud. Run all the cells, there are some preprocessing done on the data like checking for missing values and replacing the missing values with "No Text Available" (The file is fully documented so you will understand what and why you are doing that step)
-Word Cloud created for the year 1928 - 
+Word Cloud created for the years 1925 to 1928 - 
 
-![download (1)](https://user-images.githubusercontent.com/89367457/206884569-87f3f8e1-a137-4af8-90f7-9c77b88bf7f7.png)
+![wordcloud](https://user-images.githubusercontent.com/89367457/206921710-11bbbef0-936c-489b-8877-2292cee3c53e.png)
+
