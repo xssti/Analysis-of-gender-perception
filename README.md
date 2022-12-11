@@ -19,3 +19,5 @@ Steps to get the male and female pronoun counts for all the years -
 6. Once you get the male and female pronoun count you can proceed with your analysis
 
 The necessary packages to be installed are already present in the analysis_gp.py file. You can run the file by giving the data set location and you will the preliminary results.
+
+To Generate the word cloud - download the sentiment_analysis.ipynb file. Open the file and read the CSV of the file for which you want to create a word cloud. Run all the cells, there are some preprocessing done on the data like checking for missing values and replacing the missing values with "No Text Available" (The file is fully documented so you will understand what and why you are doing that step)
