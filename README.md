@@ -20,7 +20,7 @@ Steps to get the male and female pronoun counts for all the years -
 
 <img width="602" alt="Screen Shot 2022-12-10 at 10 14 21 PM" src="https://user-images.githubusercontent.com/89367457/206884593-1f0eeb13-1571-4673-9ebf-f350f690347c.png">
 
-Plot for male, female pronoun count vs year
+Plot for male, female pronoun count vs year (The plot has some missing values. We decided to leave it empty as we donot have that year's data)
 
 ![download](https://user-images.githubusercontent.com/89367457/206884559-b12bb6cd-cf40-4561-b091-5fdcfe64edba.png)
 
